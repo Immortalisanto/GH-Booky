@@ -3,6 +3,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
+    font-size: 16px;
 }
 
 h2 {
@@ -12,6 +13,11 @@ h2 {
 
 h3 {
     font-size: 20px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -46,7 +52,7 @@ li:hover {
 }
 
 #logo {
-    width: 5%;
+    width: 100px;
     object-fit: contain;
 }
 
@@ -77,4 +83,20 @@ li:hover {
 
 .titres_activites {
     padding: 0 25px;
+}
+
+/* ------------------------- FOOTER ---------------------- */
+
+footer {
+    margin: 80px auto 0 auto;
+    width: 95%;
+    padding: 0;
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.bloc_footer {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 60px;
 }
