@@ -68,6 +68,37 @@ li:hover {
 
 /* -------------------- Section recherche---------------------- */
 
+/* ------ div filtres ------ */
+
+#filtres, .partie_2_bulles, .bulle {
+    display: flex;
+    align-items: center;
+}
+
+.bulle {
+    border: 2px #d9d9d9 solid;
+    border-radius: 25px;
+    height: 45px;
+    padding: 0;
+    margin-left: 36px;
+}
+
+.bulle:hover {
+    background-color: #DEEBFF;
+}
+
+.les_filtres {
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 20px;
+    padding: 0;
+}
+
+#filtres i {
+    font-size: 22px;
+    margin: 14px 10px 14px 20px;
+}
+
 
 /* ------- div info ------- */
 
