@@ -27,6 +27,10 @@ a {
     color: black;
 }
 
+i {
+    color: #0065FC;
+}
+
 /* -------------------------- HEADER --------------------------- */
 
 header {
@@ -59,6 +63,26 @@ li:hover {
 #logo {
     width: 60px;
     object-fit: contain;
+}
+
+/* -------------------- Section recherche---------------------- */
+
+#info {
+    display: flex;
+    align-items: center;
+}
+
+.fa-info {
+    font-size: small;
+    margin: 5px 10px;
+}
+
+#bordure_info {
+    border: 1px #d9d9d9 solid;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
 }
 
 /* --------------- Section Activités à Marseille --------------- */
