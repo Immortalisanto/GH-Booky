@@ -12,6 +12,10 @@ h1, h2 {
     font-weight: 700;
 }
 
+h1 {
+    margin-bottom: 8px;
+}
+
 h3 {
     font-size: 16px;
     font-weight: 700;
@@ -69,6 +73,60 @@ li:hover {
 
 /* -------------------- Section recherche---------------------- */
 
+/* ----- div formulaire ----- */
+
+#formulaire {
+    display: flex;
+    margin-bottom: 31px;
+    margin-top: 20px;
+}
+
+#formulaire i {
+    color: black;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-left: 19px;
+}
+
+#conteneur_icone_localisation {
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    background-color: #f2f2f2;
+    width: 50px;
+    height: 49px;
+}
+
+input {
+    border: 1px solid #f2f2f2;
+    width: 236px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    padding-left: 17px;
+    margin-right: -4px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+input:focus {
+    outline: 1px solid #f2f2f2;
+}
+
+button {
+    background-color: #0065FC;
+    color: white;
+    border: #0065FC 1px solid;
+    width: 132px;
+    height: 50px;
+    border-radius: 0 15px 15px 0;
+    font-size: 18px;
+}
+
 /* ------ div filtres ------ */
 
 #filtres, .partie_2_bulles, .bulle {
@@ -106,6 +164,7 @@ li:hover {
 #info {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .fa-info {
