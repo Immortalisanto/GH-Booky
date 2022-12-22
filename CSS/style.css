@@ -48,6 +48,7 @@ ul {
 }
 
 li {
+    border-top: 2px #ffffff00 solid;
     padding: 50px 40px;
     font-size: 18px;
     font-weight: 400;
