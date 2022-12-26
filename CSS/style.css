@@ -168,17 +168,16 @@ button {
     margin-top: 10px;
 }
 
-.fa-info {
+#info div {
     font-size: small;
-    margin: 5px 10px;
-}
-
-#bordure_info {
+    text-align: center;
+    vertical-align: middle;
     border: 1px #d9d9d9 solid;
     margin-right: 10px;
     width: 24px;
     height: 24px;
     border-radius: 30px;
+    line-height: 24px;
 }
 
 /* --------------- Section Activités à Marseille --------------- */
