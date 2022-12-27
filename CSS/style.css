@@ -230,3 +230,13 @@ footer h4 {
     margin: 0 auto;
     padding: 20px 60px;
 }
+
+.footer_block ul {
+    padding-left: 0;
+}
+
+.footer_block li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
