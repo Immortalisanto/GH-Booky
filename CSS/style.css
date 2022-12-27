@@ -1,38 +1,10 @@
-/* --------------- Mise en forme générale de la page -------------- */
+/* -------------------- General formatting -------------------- */
 
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto 0 auto;
     font-size: 16px;
     max-width: 1400px;
-}
-
-h1, h2 {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-h1 {
-    margin-bottom: 8px;
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: 700;
-}
-
-h4 {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-i {
-    color: #0065FC;
 }
 
 /* -------------------------- HEADER --------------------------- */
@@ -44,14 +16,14 @@ header {
     justify-content: space-between;
 }
 
-ul {
+header ul {
     padding: 0;
     margin: 0;
     display: flex;
     list-style-type: none;
 }
 
-li {
+header li {
     border-top: 2px #ffffff00 solid;
     padding: 50px 40px;
     font-size: 18px;
@@ -60,7 +32,7 @@ li {
     text-align: center;
 }
 
-li:hover {
+header li:hover {
     border-top: 2px #0065FC solid;
     color: #0065FC;
     font-weight: 500;
@@ -71,32 +43,39 @@ li:hover {
     object-fit: contain;
 }
 
-/* -------------------- Section recherche---------------------- */
+/* -------------------- Section research---------------------- */
 
-/* ----- div formulaire ----- */
+#research h1 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
 
-#formulaire {
+/* ----- div search_form ----- */
+
+#search_form {
     display: flex;
     margin-bottom: 31px;
     margin-top: 20px;
 }
 
-#formulaire i {
+#search_form i {
     color: black;
     font-size: 18px;
-    margin-top: 16px;
-    margin-left: 19px;
 }
 
-#conteneur_icone_localisation {
+#container_icon_location {
     border: 1px solid #f2f2f2;
     border-radius: 15px 0 0 15px;
     background-color: #f2f2f2;
     width: 50px;
     height: 49px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 49px;
 }
 
-input {
+#search_form input {
     border: 1px solid #f2f2f2;
     width: 236px;
     height: 51px;
@@ -107,17 +86,17 @@ input {
     margin-right: -4px;
 }
 
-input::placeholder {
+#search_form input::placeholder {
     font-size: 18px;
     font-weight: 700;
     color: black;
 }
 
-input:focus {
+#search_form input:focus {
     outline: 1px solid #f2f2f2;
 }
 
-button {
+#search_form button {
     background-color: #0065FC;
     color: white;
     border: #0065FC 1px solid;
@@ -128,14 +107,21 @@ button {
     font-weight: 600;
 }
 
-/* ------ div filtres ------ */
+/* ------ div filters ------ */
 
-#filtres, .partie_2_bulles, .bulle {
+#filters h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#filters, .block_two_bubbles {
     display: flex;
     align-items: center;
 }
 
-.bulle {
+.bubble {
+    display: flex;
+    align-items: center;
     border: 2px #d9d9d9 solid;
     border-radius: 25px;
     height: 45px;
@@ -143,18 +129,19 @@ button {
     margin-left: 36px;
 }
 
-.bulle:hover {
+.bubble:hover {
     background-color: #DEEBFF;
 }
 
-.les_filtres {
+.filter_name {
     font-size: 17px;
     font-weight: 700;
     margin-right: 20px;
     padding: 0;
 }
 
-#filtres i {
+.filter_icon {
+    color: #0065FC;
     font-size: 22px;
     margin: 14px 10px 14px 20px;
 }
@@ -180,32 +167,48 @@ button {
     line-height: 24px;
 }
 
-/* --------------- Section Activités à Marseille --------------- */
+#info i {
+    color: #0065FC;
+}
 
-#activites_a_marseille {
+/* --------------- Section activities in Marseille --------------- */
+
+#activities_in_marseille h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#activities_in_marseille h3 {
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#activities_in_marseille {
     margin: auto;
 }
 
-#activites {
+#activities_in_marseille a {
+    text-decoration: none;
+    color: black;
+}
+
+#activities {
     display: flex;
     justify-content: space-between;
 }
 
-.carte {
+.card {
     width: 22%;
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
-.photo_activites {
+.photography_activities {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
     height: 400px;
     object-fit: cover;
-}
-
-.titres_activites {
-    padding: 0 25px;
 }
 
 /* ------------------------- FOOTER ---------------------- */
@@ -217,7 +220,12 @@ footer {
     background-color: #F2F2F2;
 }
 
-.bloc_footer {
+footer h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_block {
     width: 30%;
     margin: 0 auto;
     padding: 20px 60px;
