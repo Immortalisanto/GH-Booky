@@ -195,7 +195,7 @@ header li:hover {
     justify-content: space-between;
 }
 
-.card {
+.activities_card {
     width: 22%;
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
