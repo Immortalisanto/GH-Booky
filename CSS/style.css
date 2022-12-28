@@ -4,7 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: auto;
     font-size: 16px;
-    max-width: 1400px;
+    max-width: 1440px;
 }
 
 /* -------------------------- HEADER --------------------------- */
@@ -54,7 +54,7 @@ header li:hover {
 
 #search_form {
     display: flex;
-    margin-bottom: 31px;
+    margin-bottom: 25px;
     margin-top: 20px;
 }
 
@@ -109,6 +109,7 @@ header li:hover {
 /* ------ div filters ------ */
 
 #filters h4 {
+    margin-left: 12px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -157,6 +158,7 @@ header li:hover {
     text-align: center;
     vertical-align: middle;
     border: 1px #d9d9d9 solid;
+    margin-left: 9px;
     margin-right: 10px;
     width: 24px;
     height: 24px;
@@ -168,11 +170,81 @@ header li:hover {
     color: #0065FC;
 }
 
+/* ---------------- Section hosting in Marseille ----------------- */
+
+#hosting_in_marseille {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 840px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 20px 40px 46px 40px;
+}
+
+#hosting_in_marseille h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#show_more {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    margin: 40px 0 0 4px;
+}
+
+.picture_card {
+    width: 250px;
+    height: 114px;
+    object-fit: cover;
+    border: 5px white solid;
+    border-radius: 20px 20px 0 0;
+}
+
+.hosting_card p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0 0 16px;
+}
+
+.hosting_card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 0 16px;
+}
+
+#stars {
+    margin: 5px 0 0 16px;
+    color: #F2F2F2;
+}
+
+#stars i {
+    font-size: 12px;
+}
+
+.blue_stars {
+    color: #0065FC;
+}
+
+.hosting_card {
+    height: 199px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1) ;
+}
+
+#hosting {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
 /* --------------- Section activities in Marseille --------------- */
 
 #activities_in_marseille h2 {
     font-size: 22px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 #activities_in_marseille h3 {
