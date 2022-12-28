@@ -181,6 +181,11 @@ header li:hover {
     padding: 20px 40px 46px 40px;
 }
 
+#hosting_in_marseille a {
+    text-decoration: none;
+    color: black;
+}
+
 #hosting_in_marseille h2 {
     font-weight: 700;
     font-size: 22px;
