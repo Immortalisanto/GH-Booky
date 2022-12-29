@@ -202,7 +202,7 @@ header a {
     margin: 40px 0 0 4px;
 }
 
-.picture_card {
+#hosting_in_marseille .picture_card {
     width: 96%;
     height: 114px;
     object-fit: cover;
@@ -222,16 +222,16 @@ header a {
     margin: 0 0 0 16px;
 }
 
-#stars {
+#hosting_in_marseille #stars {
     margin: 5px 0 0 16px;
     color: #F2F2F2;
 }
 
-#stars i {
+#hosting_in_marseille #stars i {
     font-size: 12px;
 }
 
-.blue_stars {
+#hosting_in_marseille .blue_stars {
     color: #0065FC;
 }
 
@@ -246,6 +246,81 @@ header a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+}
+
+/* ------------------------ Section popular ---------------------- */
+
+#popular {
+    background-color: #F2F2F2;
+    width: 30%;
+    border-radius: 20px;
+    height: 625px;
+    padding-top: 20px;
+}
+
+#popular #title_and_icone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#popular #title_and_icone i {
+    color: #0065FC;
+    font-size: 18px;
+}
+
+#popular h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+#popular h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.popular_card {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    height: 144px;
+    display: flex;
+    border: 5px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1) ;
+    background-color: white;
+}
+
+.picture_popular_card {
+    width: 35%;
+    object-fit: cover;
+    height: 144px;
+    border-radius: 16px 0 0 16px;
+}
+
+.info_popular_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+}
+
+.info_popular_card p {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+#most_popular_cards #stars {
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: #F2F2F2;
+}
+
+#most_popular_cards .blue_stars {
+    color: #0065FC;
 }
 
 /* --------------- Section activities in Marseille --------------- */
