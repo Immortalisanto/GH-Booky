@@ -181,7 +181,7 @@ header a {
     border-radius: 20px;
     width: 60%;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding: 20px 40px 46px 40px;
 }
 
@@ -252,16 +252,16 @@ header a {
 
 #popular {
     background-color: #F2F2F2;
-    width: 30%;
+    width: 31%;
     border-radius: 20px;
-    height: 625px;
+    height: 596px;
     padding-top: 20px;
 }
 
 #popular #title_and_icone {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     width: 80%;
     margin: 0 auto 0 auto;
 }
@@ -286,7 +286,7 @@ header a {
 .popular_card {
     width: 80%;
     margin: 0 auto 30px auto;
-    height: 144px;
+    height: 130px;
     display: flex;
     border: 5px white solid;
     border-radius: 20px;
@@ -295,9 +295,9 @@ header a {
 }
 
 .picture_popular_card {
-    width: 35%;
+    width: 38%;
     object-fit: cover;
-    height: 144px;
+    height: 130px;
     border-radius: 16px 0 0 16px;
 }
 
@@ -321,6 +321,19 @@ header a {
 
 #most_popular_cards .blue_stars {
     color: #0065FC;
+}
+
+#popular a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------ div flex_hosting_and_popular_sections ------------ */
+
+#flex_hosting_and_popular_sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* --------------- Section activities in Marseille --------------- */
