@@ -4,7 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: auto;
     font-size: 16px;
-    max-width: 1440px;
+    max-width: 1400px;
 }
 
 /* -------------------------- HEADER --------------------------- */
@@ -179,7 +179,7 @@ header a {
 #hosting_in_marseille {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 840px;
+    width: 60%;
     margin-top: 30px;
     margin-bottom: 60px;
     padding: 20px 40px 46px 40px;
@@ -203,7 +203,7 @@ header a {
 }
 
 .picture_card {
-    width: 250px;
+    width: 96%;
     height: 114px;
     object-fit: cover;
     border: 5px white solid;
