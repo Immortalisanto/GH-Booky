@@ -437,13 +437,48 @@ footer h4 {
     }
 
     #hosting_in_marseille {
-        width: 92%;
+        width: 91.2%;
     }
 
     #filters h4, #info div {
         margin-left: 0px;
     }
-    
+
+    #popular {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+    }
+
+    #most_popular_cards {
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+    }
+
+    #most_popular_cards a {
+        width: 31.5%;
+    }
+
+    .popular_card {
+        width: 95%;
+        margin-bottom: 0;
+    }
+
+    #popular #title_and_icone {
+        width: 92%;
+    }
+
+    .info_popular_card {
+        margin: 0 5px 0 10px;
+    }
+
+    .info_popular_card p {
+        font-size: 13px;
+        margin-top: 7px;
+    }
 }
 
 /* ------------- Media queries - Phone ------------- */
