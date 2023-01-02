@@ -383,6 +383,8 @@ footer {
     margin: 80px auto 0 auto;
     display: flex;
     background-color: #F2F2F2;
+    justify-content: space-between;
+    padding: 15px 60px 30px 60px;
 }
 
 footer h4 {
@@ -392,8 +394,6 @@ footer h4 {
 
 .footer_block {
     width: 30%;
-    margin: auto;
-    padding: 20px 60px;
 }
 
 .footer_block ul {
