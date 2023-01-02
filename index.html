@@ -10,6 +10,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e0e1ef72f4.js" crossorigin="anonymous"></script>
+        
+        
+        <!-- A SUPPRIMER QUAND SITE FINI EN RESPONSIVE -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<div style="background:pink;color:#333;position:fixed;right:0;bottom:0;z-index:99999999;font:1em arial;opacity:.9" id="ld"></div>
+		<script>setInterval(function(){if($(window).height()>=$(document).height()){$('#ld').text($(document).width()+' px');}else{$('#ld').text($(document).width()+17+' px');}},150);</script>
+
+		<!-- A SUPPRIMER QUAND SITE FINI EN RESPONSIVE -->
+
+
     </head>
     <body>
         <header>
@@ -181,25 +192,33 @@
                     <div class="activities_card">
                         <a href="#">
                             <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo du Vieux-Port" class="photography_activities">
-                            <h3>Vieux-Port</h3>
+                            <div class="title_activities_card">
+                                <h3>Vieux-Port</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="activities_card">
                         <a href="#">
                             <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo du Fort de Pornègues" class="photography_activities">
-                            <h3>Fort de Pornègues</h3>
+                            <div class="title_activities_card">
+                                <h3>Fort de Pornègues</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="activities_card">
                         <a href="#">
                             <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo du Parc national des Calanques" class="photography_activities">
-                            <h3>Parc national des Calanques</h3>
+                            <div class="title_activities_card">
+                                <h3>Parc national des Calanques</h3>
+                            </div>
                         </a>
                     </div>
                     <div class="activities_card">
                         <a href="#">
                             <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo de Notre-Dame-de-la-Garde" class="photography_activities">
-                            <h3>Notre-Dame-de-la-Garde</h3>
+                            <div class="title_activities_card">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
                         </a>
                     </div>
                 </div>

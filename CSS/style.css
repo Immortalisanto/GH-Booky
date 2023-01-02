@@ -4,6 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: auto;
     font-size: 16px;
+    width: 98%;
     max-width: 1400px;
 }
 
@@ -350,6 +351,13 @@ header a {
     font-weight: 700;
 }
 
+.title_activities_card {
+    padding: 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
 #activities_in_marseille {
     margin: auto;
 }
@@ -405,3 +413,14 @@ footer h4 {
     font-size: 16px;
     margin-bottom: 12px;
 }
+
+/* ------------------- Responsive Design ------------------- */
+
+/* ------------- Media queries - Touch pad ------------- */
+
+@media screen and (max-width: 991px) {
+
+}
+
+/* ------------- Media queries - Phone ------------- */
+
