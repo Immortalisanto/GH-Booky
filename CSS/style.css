@@ -117,11 +117,19 @@ header a {
     margin-left: 12px;
     font-size: 18px;
     font-weight: 700;
+    width: 10%;
 }
 
-#filters, .block_two_bubbles {
+#filters {
     display: flex;
     align-items: center;
+    max-width: 950px;
+}
+
+#block_four_bubbles {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 
 .bubble {
@@ -130,7 +138,6 @@ header a {
     border: 2px #d9d9d9 solid;
     border-radius: 25px;
     height: 45px;
-    margin-left: 36px;
 }
 
 .bubble:hover {
@@ -420,6 +427,23 @@ footer h4 {
 
 @media screen and (max-width: 991px) {
 
+    body {
+        width: 95%;
+    }
+
+    #flex_hosting_and_popular_sections {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hosting_in_marseille {
+        width: 92%;
+    }
+
+    #filters h4, #info div {
+        margin-left: 0px;
+    }
+    
 }
 
 /* ------------- Media queries - Phone ------------- */
