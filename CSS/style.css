@@ -20,6 +20,7 @@ header ul {
     margin: 0;
     display: flex;
     list-style-type: none;
+    justify-content: center;
 }
 
 header li {
@@ -36,6 +37,7 @@ header li:hover {
     color: #0065FC;
     font-weight: 500;
 }
+
 header a {
     text-decoration: none;
     color: black;
@@ -502,3 +504,37 @@ footer h4 {
 
 /* ------------- Media queries - Phone ------------- */
 
+@media screen and (max-width: 767px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        border: 1px black solid;
+    }
+
+    #logo {
+        margin: 20px auto 20px auto;
+    }
+    
+    header ul {
+        border: 1px blue solid;
+        padding: 0;
+    }
+    
+    header li {
+        border: 1px red solid;
+        padding: 20px;
+    }
+    
+    header li:hover {
+
+    }
+
+    header nav {
+        border: 1px greenyellow solid;
+    }
+
+}
