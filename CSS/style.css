@@ -28,7 +28,6 @@ header ul {
 
 header li {
     border-top: 2px #ffffff00 solid;
-    padding: 40px 0;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -40,6 +39,7 @@ header li:hover {
 }
 
 header a {
+    display: block;
     padding: 40px 40px;
     text-decoration: none;
     color: black;
@@ -517,9 +517,10 @@ footer h4 {
         width: 100%;
     }
 
+    /* ---- responsive - header ----*/
+
     header {
         flex-direction: column;
-        border: 1px black solid;
     }
 
     #logo {
@@ -527,21 +528,24 @@ footer h4 {
     }
     
     header ul {
-        border: 1px blue solid;
-        padding: 0;
+        width: 100%;
     }
     
     header li {
-        border: 1px red solid;
-        padding: 20px;
+        border-top: 0;
+        padding: 0;
+        width: 50%;
+        border-bottom: 2px solid #F2F2F2;
+        font-size: 16px;
     }
     
     header li:hover {
-
+        border-top: 0;
+        border-bottom: 2px solid #0065FC;
     }
 
-    header nav {
-        border: 1px greenyellow solid;
+    header a {
+        padding: 20px 0;
     }
 
 }
