@@ -493,7 +493,7 @@ footer h4 {
     }
 
     .info_popular_card p {
-        font-size: 13px;
+        font-size: 14px;
         margin-top: 7px;
     }
 
@@ -648,4 +648,45 @@ footer h4 {
     .bubble {
         height: 50px;
     }
+
+    /* ---- responsive - div flex_hosting_and_popular_sections ----*/
+
+    #flex_hosting_and_popular_sections {
+        flex-direction: column-reverse;
+    }
+
+    /* ----Responsive - Section popular ---- */
+
+    #popular {
+        background-color: #F2F2F2;
+        border-radius: 0;
+        padding-top: 12px;
+        height: 560px;
+        margin-bottom: 0;
+    }
+
+    #popular #title_and_icone {
+        width: 88%;
+        margin-bottom: 0;
+    }
+
+    #most_popular_cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 144px;
+        gap: 10px;
+    }
+
+    #popular a {
+        width: 100%;
+        margin: auto;
+    }
+
+    .info_popular_card {
+        margin: 0 5px 5px 20px;
+    }
+
+    /* ----Responsive - Section hosting_in_marseille ---- */
+
+    
 }
