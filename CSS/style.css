@@ -688,5 +688,29 @@ footer h4 {
 
     /* ----Responsive - Section hosting_in_marseille ---- */
 
+    #hosting_in_marseille {
+        width: 88%;
+        background-color: white;
+        margin: auto;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    #hosting {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    #hosting_in_marseille .picture_card {
+        width: 97%;
+    }
+
+    #show_more {
+        display: none;
+    }
+
+    /* ----Responsive - Section activities_in_marseille ---- */
+
     
 }
