@@ -66,18 +66,22 @@ header a:hover {
 
 /* ----- div search_form ----- */
 
+#search_form_for_mobile {
+    display: none;
+}
+
 #search_form {
     display: flex;
     margin-bottom: 25px;
     margin-top: 20px;
 }
 
-#search_form i {
+#search_form .fa-location-dot {
     color: black;
     font-size: 18px;
 }
 
-#container_icon_location {
+.container_icon_location {
     border: 1px solid #f2f2f2;
     border-radius: 15px 0 0 15px;
     background-color: #f2f2f2;
@@ -524,7 +528,7 @@ footer h4 {
     }
 
     #logo {
-        margin: 20px auto 20px auto;
+        margin: 20px auto 30px auto;
     }
     
     header ul {
@@ -546,6 +550,68 @@ footer h4 {
 
     header a {
         padding: 20px 0;
+    }
+
+    /* ---- responsive - section research ----*/
+
+    #research {
+        width: 88%;
+        margin: auto;
+    }
+
+    #research h1 {
+        margin-top: 31px;
+    }
+
+    #search_form {
+        display: none;
+    }
+
+    #search_form_for_mobile {
+        display: flex;
+        margin: 35px auto;
+        width: 340px;
+    }
+
+    #search_form_for_mobile .fa-location-dot {
+        color: black;
+        font-size: 18px;
+    }
+
+    #search_form_for_mobile .fa-magnifying-glass {
+        color: white;
+        font-size: 17px;
+    }
+
+    #search_form_for_mobile input {
+        border: 1px solid #f2f2f2;
+        width: 236px;
+        height: 51px;
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+        padding-left: 17px;
+        margin-right: -4px;
+    }
+    
+    #search_form_for_mobile input::placeholder {
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+    }
+    
+    #search_form_for_mobile input:focus {
+        outline: 1px solid #f2f2f2;
+    }
+
+    #search_form_for_mobile button {
+        background-color: #0065FC;
+        color: white;
+        border: #0065FC 1px solid;
+        width: 51px;
+        height: 51px;
+        border-radius: 0 15px 15px 0;
+        font-weight: 600;
     }
 
 }
