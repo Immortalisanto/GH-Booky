@@ -712,5 +712,38 @@ footer h4 {
 
     /* ----Responsive - Section activities_in_marseille ---- */
 
-    
+    #activities_in_marseille {
+        width: 88%;
+        margin-top: 100px;
+    }
+
+    #activities_in_marseille h2 {
+        margin-bottom: 30px;
+    }
+
+    #activities {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activities_card {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .photography_activities {
+        height: 134px;
+    }
+
+    /* ----Responsive - Footer ---- */
+
+    footer {
+        flex-direction: column;
+        padding: 45px 0;
+    }
+
+    .footer_block {
+        width: 88%;
+        margin: auto;
+    }
 }
