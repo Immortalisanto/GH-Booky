@@ -450,15 +450,34 @@ footer h4 {
         flex-direction: column;
     }
 
+    /* ---- responsive - section - hosting_in_marseille ----*/
+
     #hosting_in_marseille {
-        width: 91.2%;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    #hosting_in_marseille h2 {
+        width: 92%;
+        margin: 42px auto 23px auto;
+    }
+
+    #hosting {
+        width: 92%;
+        margin: auto;
+    }
+
+    #show_more {
+        width: 92%;
+        margin: 40px auto 46px auto;
     }
 
     #filters h4, #info div {
         margin-left: 0px;
     }
 
-    /* ------- responsive - popular -------*/
+    /* ------- responsive - section - popular -------*/
 
     #popular {
         margin-top: 15px;
@@ -497,7 +516,7 @@ footer h4 {
         margin-top: 7px;
     }
 
-    /* ---- responsive - activities_in_marseille ----*/
+    /* ---- responsive - section - activities_in_marseille ----*/
 
     #activities_in_marseille {
         margin-top: 60px;
@@ -572,7 +591,14 @@ footer h4 {
     #search_form_for_mobile {
         display: flex;
         margin: 35px auto;
-        width: 340px;
+        width: 100%;
+        max-width: 340px;
+        justify-content: center;
+    }
+
+    #search_form_for_mobile form {
+        display: flex;
+        width: 80%;
     }
 
     #search_form_for_mobile .fa-location-dot {
@@ -586,8 +612,10 @@ footer h4 {
     }
 
     #search_form_for_mobile input {
+        display: block;
         border: 1px solid #f2f2f2;
-        width: 236px;
+        width: 85%;
+        max-width: 236px;
         height: 51px;
         font-size: 18px;
         font-weight: 400;
@@ -607,13 +635,21 @@ footer h4 {
     }
 
     #search_form_for_mobile button {
+        display: block;
         background-color: #0065FC;
         color: white;
         border: #0065FC 1px solid;
-        width: 51px;
+        max-width: 51px;
+        width: 25%;
         height: 51px;
         border-radius: 0 15px 15px 0;
         font-weight: 600;
+    }
+
+    #search_form_for_mobile .container_icon_location {
+        display: block;
+        max-width: 51px;
+        width: 20%;
     }
 
         /*---- div filters ----*/
@@ -696,7 +732,12 @@ footer h4 {
         margin-top: 10px;
     }
 
+    #hosting_in_marseille h2 {
+        width: 100%;
+    }
+
     #hosting {
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
