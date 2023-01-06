@@ -252,11 +252,11 @@ header a:hover {
     margin: auto;
 }
 
-#hosting_in_marseille #stars {
+#hosting_in_marseille .stars {
     color: #F2F2F2;
 }
 
-#hosting_in_marseille #stars i {
+#hosting_in_marseille .stars i {
     font-size: 12px;
 }
 
@@ -342,7 +342,7 @@ header a:hover {
     margin: 0;
 }
 
-#most_popular_cards #stars {
+#most_popular_cards .stars {
     font-size: 12px;
     color: #F2F2F2;
 }
