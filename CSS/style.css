@@ -234,17 +234,25 @@ header a:hover {
 .hosting_card p {
     font-size: 14px;
     font-weight: 400;
-    margin: 5px 0 0 16px;
+    margin: 0;
 }
 
 .hosting_card h3 {
     font-size: 16px;
     font-weight: 700;
-    margin: 0 0 0 16px;
+    margin: 0;
+}
+
+.info_hosting_card {
+    display: flex;
+    flex-direction: column;
+    height: 65px;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 
 #hosting_in_marseille #stars {
-    margin: 5px 0 0 16px;
     color: #F2F2F2;
 }
 
@@ -284,7 +292,7 @@ header a:hover {
     justify-content: space-between;
     align-items: baseline;
     width: 80%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 #popular #title_and_icone i {
@@ -301,11 +309,11 @@ header a:hover {
 #popular h3 {
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 0;
+    margin: 0 0 7px 0;
 }
 
 .popular_card {
-    width: 80%;
+    width: 100%;
     margin: 0 auto 30px auto;
     height: 130px;
     display: flex;
@@ -315,28 +323,27 @@ header a:hover {
     background-color: white;
 }
 
-.picture_popular_card {
-    width: 38%;
-    object-fit: cover;
-    height: 130px;
-    border-radius: 16px 0 0 16px;
-}
-
 .info_popular_card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 20px 0 20px;
+    margin: 10px 20px 5px 20px;
+    width: 62%;
+}
+
+.picture_popular_card {
+    object-fit: cover;
+    width: 38%;
+    border-radius: 16px 0 0 16px;
 }
 
 .info_popular_card p {
     font-size: 14px;
-    margin-top: 7px;
+    margin: 0;
 }
 
 #most_popular_cards #stars {
     font-size: 12px;
-    margin-bottom: 4px;
     color: #F2F2F2;
 }
 
@@ -345,6 +352,9 @@ header a:hover {
 }
 
 #popular a {
+    margin: auto;
+    display: block;
+    width: 80%;
     text-decoration: none;
     color: black;
 }
@@ -508,11 +518,15 @@ footer h4 {
     }
 
     .info_popular_card {
-        margin: 0 5px 0 10px;
+        margin: 7px 2px 0 10px;
+    }
+
+    #popular h3 {
+        font-size: 14px;
     }
 
     .info_popular_card p {
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 7px;
     }
 
@@ -718,8 +732,16 @@ footer h4 {
         margin: auto;
     }
 
+    #popular h3 {
+        font-size: 16px;
+    }
+
+    #popular p {
+        font-size: 14px;
+    }
+
     .info_popular_card {
-        margin: 0 5px 5px 20px;
+        margin: 12px 12px 5px 15px;
     }
 
     /* ----Responsive - Section hosting_in_marseille ---- */
