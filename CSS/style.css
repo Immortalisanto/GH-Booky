@@ -216,6 +216,10 @@ header a:hover {
     font-size: 22px;
 }
 
+#city_hosting .stars {
+    display: flex;
+}
+
 #show_more {
     font-size: 18px;
     font-weight: 700;
