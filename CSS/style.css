@@ -195,9 +195,9 @@ header a:hover {
     color: #0065FC;
 }
 
-/* ---------------- Section hosting in Marseille ----------------- */
+/* ---------------- city_hosting section ----------------- */
 
-#hosting_in_marseille {
+#city_hosting {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 60%;
@@ -206,12 +206,12 @@ header a:hover {
     padding: 20px 40px 46px 40px;
 }
 
-#hosting_in_marseille a {
+#city_hosting a {
     text-decoration: none;
     color: black;
 }
 
-#hosting_in_marseille h2 {
+#city_hosting h2 {
     font-weight: 700;
     font-size: 22px;
 }
@@ -223,7 +223,7 @@ header a:hover {
     margin: 40px 0 0 4px;
 }
 
-#hosting_in_marseille .picture_card {
+#city_hosting .picture_card {
     width: 96%;
     height: 114px;
     object-fit: cover;
@@ -252,15 +252,15 @@ header a:hover {
     margin: auto;
 }
 
-#hosting_in_marseille .stars {
+#city_hosting .stars {
     color: #F2F2F2;
 }
 
-#hosting_in_marseille .stars i {
+#city_hosting .stars i {
     font-size: 12px;
 }
 
-#hosting_in_marseille .blue_stars {
+#city_hosting .blue_stars {
     color: #0065FC;
 }
 
@@ -371,15 +371,15 @@ header a:hover {
     align-items: baseline;
 }
 
-/* --------------- Section activities in Marseille --------------- */
+/* --------------- city_activities section --------------- */
 
-#activities_in_marseille h2 {
+#city_activities h2 {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-#activities_in_marseille h3 {
+#city_activities h3 {
     padding-left: 25px;
     font-size: 16px;
     font-weight: 700;
@@ -392,11 +392,11 @@ header a:hover {
     align-items: center;
 }
 
-#activities_in_marseille {
+#city_activities {
     margin: auto;
 }
 
-#activities_in_marseille a {
+#city_activities a {
     text-decoration: none;
     color: black;
 }
@@ -464,15 +464,15 @@ footer h4 {
         flex-direction: column;
     }
 
-    /* ---- responsive - section - hosting_in_marseille ----*/
+    /* ---- responsive - section - city_hosting ----*/
 
-    #hosting_in_marseille {
+    #city_hosting {
         width: 100%;
         margin: auto;
         padding: 0;
     }
 
-    #hosting_in_marseille h2 {
+    #city_hosting h2 {
         width: 92%;
         margin: 42px auto 23px auto;
     }
@@ -534,13 +534,13 @@ footer h4 {
         margin-top: 7px;
     }
 
-    /* ---- responsive - section - activities_in_marseille ----*/
+    /* ---- responsive - section - city_activities ----*/
 
-    #activities_in_marseille {
+    #city_activities {
         margin-top: 60px;
     }
 
-    #activities_in_marseille h2 {
+    #city_activities h2 {
         margin-bottom: 30px;
     }
 
@@ -754,9 +754,9 @@ footer h4 {
         margin: 12px 12px 5px 15px;
     }
 
-    /* ----Responsive - Section hosting_in_marseille ---- */
+    /* ----Responsive - Section city_hosting ---- */
 
-    #hosting_in_marseille {
+    #city_hosting {
         width: 88%;
         background-color: white;
         margin: auto;
@@ -764,7 +764,7 @@ footer h4 {
         margin-top: 10px;
     }
 
-    #hosting_in_marseille h2 {
+    #city_hosting h2 {
         width: 100%;
     }
 
@@ -775,7 +775,7 @@ footer h4 {
         gap: 10px;
     }
 
-    #hosting_in_marseille .picture_card {
+    #city_hosting .picture_card {
         width: 97%;
     }
 
@@ -783,14 +783,14 @@ footer h4 {
         display: none;
     }
 
-    /* ----Responsive - Section activities_in_marseille ---- */
+    /* ----Responsive - city_activities section ---- */
 
-    #activities_in_marseille {
+    #city_activities {
         width: 88%;
         margin-top: 100px;
     }
 
-    #activities_in_marseille h2 {
+    #city_activities h2 {
         margin-bottom: 30px;
     }
 
