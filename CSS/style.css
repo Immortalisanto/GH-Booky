@@ -66,10 +66,6 @@ header a:hover {
 
 /* ----- div search_form ----- */
 
-/* #search_form_for_mobile {
-    display: none;
-} */
-
 #search_form {
     display: flex;
     margin-bottom: 25px;
@@ -608,7 +604,7 @@ footer h4 {
         margin-top: 31px;
     }
 
-        /*---- div search_form et div search_form_for_mobile ----*/
+        /*---- div search_form et div search_form ----*/
 
     #search_form {
         display: flex;
@@ -625,6 +621,10 @@ footer h4 {
     #search_form form {
         display: flex;
         width: 80%;
+    }
+
+    #search_form input {
+        width: 75%;
     }
 
     #search_form #button_search_form_for_mobile {
