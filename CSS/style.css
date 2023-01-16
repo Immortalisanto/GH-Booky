@@ -66,9 +66,9 @@ header a:hover {
 
 /* ----- div search_form ----- */
 
-#search_form_for_mobile {
+/* #search_form_for_mobile {
     display: none;
-}
+} */
 
 #search_form {
     display: flex;
@@ -122,6 +122,10 @@ header a:hover {
     border-radius: 0 15px 15px 0;
     font-size: 18px;
     font-weight: 600;
+}
+
+#search_form #button_search_form_for_mobile {
+    display: none;
 }
 
 /* ------ div filters ------ */
@@ -607,10 +611,6 @@ footer h4 {
         /*---- div search_form et div search_form_for_mobile ----*/
 
     #search_form {
-        display: none;
-    }
-
-    #search_form_for_mobile {
         display: flex;
         margin: 35px auto;
         width: 100%;
@@ -618,45 +618,16 @@ footer h4 {
         justify-content: center;
     }
 
-    #search_form_for_mobile form {
+    #search_form #button_search_form {
+        display: none;
+    }
+
+    #search_form form {
         display: flex;
         width: 80%;
     }
 
-    #search_form_for_mobile .fa-location-dot {
-        color: black;
-        font-size: 18px;
-    }
-
-    #search_form_for_mobile .fa-magnifying-glass {
-        color: white;
-        font-size: 17px;
-    }
-
-    #search_form_for_mobile input {
-        display: block;
-        border: 1px solid #f2f2f2;
-        width: 85%;
-        max-width: 236px;
-        height: 51px;
-        font-size: 18px;
-        font-weight: 400;
-        color: black;
-        padding-left: 17px;
-        margin-right: -4px;
-    }
-    
-    #search_form_for_mobile input::placeholder {
-        font-size: 18px;
-        font-weight: 700;
-        color: black;
-    }
-    
-    #search_form_for_mobile input:focus {
-        outline: 1px solid #f2f2f2;
-    }
-
-    #search_form_for_mobile button {
+    #search_form #button_search_form_for_mobile {
         display: block;
         background-color: #0065FC;
         color: white;
@@ -666,12 +637,6 @@ footer h4 {
         height: 51px;
         border-radius: 0 15px 15px 0;
         font-weight: 600;
-    }
-
-    #search_form_for_mobile .container_icon_location {
-        display: block;
-        max-width: 51px;
-        width: 20%;
     }
 
         /*---- div filters ----*/
